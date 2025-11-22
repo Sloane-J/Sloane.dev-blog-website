@@ -12,7 +12,7 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
+    "site": "https://sloane-dev-blog.vercel.app/",
     "title": "Sloane.dev",
     "description": "Web dev deep dives, project logs, productivity experiments, and stray thoughts from a developer figuring things out in public. Welcome to my corner of the internet.",
     "author": "Sloane.dev",
@@ -59,6 +59,10 @@
       {
         "title": "GitHub",
         "url": "https://github.com/Sloane-J"
+      },
+      {
+        "title": "Portfolio",
+        "url": "https://sloanedev.vercel.app/"
       }
     ],
     "social": [
@@ -143,21 +147,21 @@
     "postCardAspectRatio": "og",
     "customPostCardAspectRatio": "2.5/1",
     "comments": {
-      "enabled": false,
+      "enabled": true,
       "provider": "giscus",
-      "rawScript": "",
-      "repo": "",
-      "repoId": "",
-      "category": "",
-      "categoryId": "",
-      "mapping": "",
-      "strict": "",
-      "reactions": "",
-      "metadata": "",
-      "inputPosition": "",
-      "theme": "",
-      "lang": "",
-      "loading": ""
+      "rawScript": "<script src=\"https://giscus.app/client.js\"\n        data-repo=\"Sloane-J/Sloane.dev-blog-website\"\n        data-repo-id=\"R_kgDOQbA3GA\"\n        data-category=\"General\"\n        data-category-id=\"DIC_kwDOQbA3GM4CyHuf\"\n        data-mapping=\"title\"\n        data-strict=\"0\"\n        data-reactions-enabled=\"1\"\n        data-emit-metadata=\"0\"\n        data-input-position=\"top\"\n        data-theme=\"preferred_color_scheme\"\n        data-lang=\"en\"\n        data-loading=\"lazy\"\n        crossorigin=\"anonymous\"\n        async>\n</script>",
+      "repo": "Sloane-J/Sloane.dev-blog-website",
+      "repoId": "R_kgDOQbA3GA",
+      "category": "General",
+      "categoryId": "DIC_kwDOQbA3GM4CyHuf",
+      "mapping": "title",
+      "strict": "0",
+      "reactions": "1",
+      "metadata": "0",
+      "inputPosition": "top",
+      "theme": "preferred_color_scheme",
+      "lang": "en",
+      "loading": "lazy"
     }
   },
   "features": {
@@ -172,7 +176,7 @@
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": false,
-    "comments": false,
+    "comments": true,
     "featureButton": "mode",
     "showPostCardCoverImages": "featured-and-posts",
     "postCardAspectRatio": "og",
@@ -208,21 +212,21 @@
       "style": "circle"
     },
     "comments": {
-      "enabled": false,
+      "enabled": true,
       "provider": "giscus",
-      "rawScript": "",
-      "repo": "",
-      "repoId": "",
-      "category": "",
-      "categoryId": "",
-      "mapping": "",
-      "strict": "",
-      "reactions": "",
-      "metadata": "",
-      "inputPosition": "",
-      "theme": "",
-      "lang": "",
-      "loading": ""
+      "rawScript": "<script src=\"https://giscus.app/client.js\"\n        data-repo=\"Sloane-J/Sloane.dev-blog-website\"\n        data-repo-id=\"R_kgDOQbA3GA\"\n        data-category=\"General\"\n        data-category-id=\"DIC_kwDOQbA3GM4CyHuf\"\n        data-mapping=\"title\"\n        data-strict=\"0\"\n        data-reactions-enabled=\"1\"\n        data-emit-metadata=\"0\"\n        data-input-position=\"top\"\n        data-theme=\"preferred_color_scheme\"\n        data-lang=\"en\"\n        data-loading=\"lazy\"\n        crossorigin=\"anonymous\"\n        async>\n</script>",
+      "repo": "Sloane-J/Sloane.dev-blog-website",
+      "repoId": "R_kgDOQbA3GA",
+      "category": "General",
+      "categoryId": "DIC_kwDOQbA3GM4CyHuf",
+      "mapping": "title",
+      "strict": "0",
+      "reactions": "1",
+      "metadata": "0",
+      "inputPosition": "top",
+      "theme": "preferred_color_scheme",
+      "lang": "en",
+      "loading": "lazy"
     }
   },
   "deployment": {

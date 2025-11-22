@@ -41,9 +41,8 @@ If you're interested in the original template:
 
 Have a question, want to collaborate, or just want to say hi? Feel free to reach out.
 
-- [Contact](/pages/contact) - Send me a message
-- [GitHub](https://github.com/your-username) - Check out my code
-- [Twitter/X](https://twitter.com/your-handle) - Follow along
+- [Portfolio](https://sloanedev.vercel.app/) - Send me a message
+- [GitHub](https://github.com/Sloane-J) - Check out my code
 
 ---
 

@@ -1,8 +1,8 @@
 {
-  "name": "astro-modular",
-  "version": "0.6.4",
-  "type": "module",
-  "description": "A flexible blog theme designed for Obsidian users.",
+  "name": "sloane.dev",
+  "version": "1.0.0",
+  "type": "website",
+  "description": "Web dev deep dives, project logs, productivity experiments, and stray thoughts from a developer figuring things out in public. Welcome to my corner of the internet.",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env ASTRO_CONTENT_COLLECTION_CACHE=false node scripts/setup-dev.mjs && node scripts/sync-images.js && node scripts/process-aliases.js && node scripts/generate-deployment-config.js && node scripts/generate-graph-data.js && node scripts/dev-with-port.js",
@@ -24,7 +24,7 @@
     "theme",
     "obsidian"
   ],
-  "author": "David V. Kimball",
+  "author": "Samuel D. Jnr",
   "license": "MIT",
   "dependencies": {
     "@astrojs/check": "^0.9.5",

@@ -1,6 +1,31 @@
-# Astro Modular
+# Sloane.dev
 
-A flexible blog theme designed for Obsidian users. 
+Welcome to Sloane.dev, a space where I share web development insights, project breakdowns, design ideas, and occasional wandering thoughts. Sometimes technical, sometimes personal—always genuine.
+
+I’m Sloane, a full-stack developer who enjoys building for the web and writing about the process. I believe in learning in public, sharing what I know, what I’m figuring out, and occasionally what I got wrong.
+
+### What You’ll Find Here
+
+- Web Development – Tutorials, tips, and deep dives into frontend and backend topics
+
+- Project Logs – Breakdown of side projects I’m working on
+
+- Design – Thoughts on UI/UX, aesthetics, and tools I find useful
+
+- Productivity – Experiments with workflows, tools, and systems
+
+- Random Thoughts – Ideas that don’t fit neatly into a category
+
+### About This Site
+
+This blog is built with Astro, using a modified version of Astro Modular, a blog theme created by David V. Kimball designed for Obsidian users. I’ve made some layout modifications and added small tweaks to suit my preferences, but the core foundation and philosophy remain true to the original. Credit goes to David for building such a well-structured, performant, and extensible theme.
+
+David V. Kimball’s Readme
+
+# Astro Modular A flexible blog theme designed for Obsidian users.
+[![Alt](https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8 "Astro Modular theme shown off in 3 screenshots, with the left screenshot showing the homepage, the top right showing the bottom of a post, and the bottom right showing a minimal homepage")](https://astro.build/themes/details/astro-modular/)
+
+## Use Obsidian as a CMS ![Alt](https://github.com/user-attachments/assets/582f651d-e507-4bde-8b3a-642be07c428a "Astro Modular Obsidian vault")
 
 [![Alt](https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8 "Astro Modular theme shown off in 3 screenshots, with the left screenshot showing the homepage, the top right showing the bottom of a post, and the bottom right showing a minimal homepage")](https://astro.build/themes/details/astro-modular/)
 
@@ -37,27 +62,27 @@ A flexible blog theme designed for Obsidian users.
 
 ## Features
 
-- [x] **Custom Themes** 
-- [x] **Feature Toggle Control** 
-- [x] **Dark/Light Mode** 
-- [x] **Search & Command Palette** 
-- [x] **Wikilinks & Linked Mentions** 
+- [x] **Custom Themes**
+- [x] **Feature Toggle Control**
+- [x] **Dark/Light Mode**
+- [x] **Search & Command Palette**
+- [x] **Wikilinks & Linked Mentions**
 - [x] **Obsidian-Style Callouts**
 - [x] **Obsidian Embeds Files**
-- [x] **Folder-Based Posts** 
+- [x] **Folder-Based Posts**
 - [x] **Multiple Content Types**
-- [x] **Image Optimization** 
+- [x] **Image Optimization**
 - [x] **Automatic Feed Generation**
-- [x] **Table of Contents** 
-- [x] **Smooth Scroll & Page Transitions** 
-- [x] **Image Gallery & Lightbox** 
-- [x] **Reading Time & Word Count** 
+- [x] **Table of Contents**
+- [x] **Smooth Scroll & Page Transitions**
+- [x] **Image Gallery & Lightbox**
+- [x] **Reading Time & Word Count**
 - [x] **Tagging**
 - [x] **Graph View**
 - [x] **Mermaid Diagrams**
-- [x] **LaTeX & Math Rendering** 
+- [x] **LaTeX & Math Rendering**
 - [x] **Custom Typography**
-- [x] **Profile Picture** 
+- [x] **Profile Picture**
 - [x] **Comments**
 
 ## Quick Start
@@ -108,7 +133,7 @@ Set your deployment platform once in `src/config.ts` under `deployment.platform`
 
 For detailed guides, see the included blog posts:
 - **[Getting Started](src/content/posts/getting-started.md)** - complete setup and workflow guide
-- **[Formatting Reference](src/content/posts/formatting-reference.md)** - comprehensive formatting reference  
+- **[Formatting Reference](src/content/posts/formatting-reference.md)** - comprehensive formatting reference
 - **[Astro Suite Vault Guide](src/content/posts/astro-suite-vault-modular-guide.md)** - Obsidian vault walkthrough
 - **[Obsidian Embeds Demo](src/content/posts/obsidian-embeds-demo.md)** - Obsidian embed examples
 
@@ -118,7 +143,7 @@ For detailed guides, see the included blog posts:
 
 [![Star History Chart](https://api.star-history.com/svg?repos=davidvkimball/astro-modular&type=date&legend=top-left)](https://www.star-history.com/#davidvkimball/astro-modular&type=date&legend=top-left)
 
-## Acknowledgments 
+## Acknowledgments
 
 [Spaceship Astro theme](https://github.com/aitorllj93/astro-theme-spaceship) for the graph view functionality upon which this theme's is based.
 

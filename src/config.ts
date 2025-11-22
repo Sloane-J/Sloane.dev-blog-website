@@ -204,12 +204,11 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://sloane-dev-blog.vercel.app/",
   // [CONFIG:SITE_TITLE]
   title: "Sloane.dev",
   // [CONFIG:SITE_DESCRIPTION]
-  description:
-    "Web dev deep dives, project logs, productivity experiments, and stray thoughts from a developer figuring things out in public. Welcome to my corner of the internet.",
+  description: "Web dev deep dives, project logs, productivity experiments, and stray thoughts from a developer figuring things out in public. Welcome to my corner of the internet.",
   // [CONFIG:SITE_AUTHOR]
   author: "Sloane.dev",
   // [CONFIG:SITE_LANGUAGE]
@@ -217,7 +216,7 @@ export const siteConfig: SiteConfig = {
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
   faviconThemeAdaptive: true, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
   // [CONFIG:DEFAULT_OG_IMAGE_ALT]
-  defaultOgImageAlt: "Sloane.dev logo.", // Alt text for the default Open Graph image, public/open-graph.png
+  defaultOgImageAlt: "Astro Modular logo.", // Alt text for the default Open Graph image, public/open-graph.png
 
   // Global Settings
   // [CONFIG:THEME]
@@ -340,6 +339,7 @@ export const siteConfig: SiteConfig = {
       { title: "Docs", url: "/docs" },
       { title: "About", url: "/about" },
       { title: "GitHub", url: "https://github.com/Sloane-J" },
+      { title: "Portfolio", url: "https://sloanedev.vercel.app/" },
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
@@ -439,33 +439,33 @@ export const siteConfig: SiteConfig = {
     customPostCardAspectRatio: "2.5/1", // Only used when postCardAspectRatio is "custom" (e.g., "2.5/1")
     comments: {
       // [CONFIG:POST_OPTIONS_COMMENTS_ENABLED]
-      enabled: false,
+      enabled: true,
       // [CONFIG:POST_OPTIONS_COMMENTS_PROVIDER]
       provider: "giscus",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO]
-      repo: "",
+      repo: "Sloane-J/Sloane.dev-blog-website",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO_ID]
-      repoId: "",
+      repoId: "R_kgDOQbA3GA",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY]
-      category: "",
+      category: "General",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY_ID]
-      categoryId: "",
+      categoryId: "DIC_kwDOQbA3GM4CyHuf",
       // [CONFIG:POST_OPTIONS_COMMENTS_MAPPING]
-      mapping: "",
+      mapping: "title",
       // [CONFIG:POST_OPTIONS_COMMENTS_STRICT]
-      strict: "",
+      strict: "0",
       // [CONFIG:POST_OPTIONS_COMMENTS_REACTIONS]
-      reactions: "",
+      reactions: "1",
       // [CONFIG:POST_OPTIONS_COMMENTS_METADATA]
-      metadata: "",
+      metadata: "0",
       // [CONFIG:POST_OPTIONS_COMMENTS_INPUT_POSITION]
-      inputPosition: "",
+      inputPosition: "top",
       // [CONFIG:POST_OPTIONS_COMMENTS_THEME]
-      theme: "",
+      theme: "preferred_color_scheme",
       // [CONFIG:POST_OPTIONS_COMMENTS_LANG]
-      lang: "",
+      lang: "en",
       // [CONFIG:POST_OPTIONS_COMMENTS_LOADING]
-      loading: "",
+      loading: "lazy",
     },
   },
 };
