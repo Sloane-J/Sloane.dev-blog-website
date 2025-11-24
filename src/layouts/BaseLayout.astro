@@ -60,6 +60,16 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     <meta name="robots" content="noindex, nofollow">
   )}
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NMYCQ672W2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NMYCQ672W2');
+  </script>
+
   <!-- Open Graph -->
   <meta property="og:title" content={seoData.title}>
   <meta property="og:description" content={seoData.description}>
