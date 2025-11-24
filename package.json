@@ -1,7 +1,7 @@
 {
   "name": "sloane.dev",
   "version": "1.0.0",
-  "type": "website",
+  "type": "module",
   "description": "Web dev deep dives, project logs, productivity experiments, and stray thoughts from a developer figuring things out in public. Welcome to my corner of the internet.",
   "main": "index.js",
   "scripts": {

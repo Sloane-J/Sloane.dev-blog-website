@@ -19,7 +19,7 @@ aliases:
   - astro-suite-vault-modular-guide
   - astro-suite-obsidian-vault-guide-astro-modular
 ---
-![Astro and Obsidian logos stacked vertically with a "+" (plus) sign between them.](/posts/attachments/astro-composer-suite-for-obsidian.png)
+![Astro and Obsidian logos stacked vertically with a "+" (plus) sign between them.](attachments/astro-composer-suite-for-obsidian.png)
 
 ## Overview
 
