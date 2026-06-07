@@ -339,7 +339,7 @@ export const siteConfig: SiteConfig = {
       { title: "Docs", url: "/docs" },
       { title: "About", url: "/about" },
       { title: "GitHub", url: "https://github.com/Sloane-J" },
-      { title: "Portfolio", url: "https://sloanedev.vercel.app/" },
+      { title: "Portfolio", url: "https://samuel-dorkey.vercel.app/" },
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
