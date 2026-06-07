@@ -1,30 +1,29 @@
 ---
-aliases:
-title: "Expiro: How I Built an Expiry Tracker for a Minimart"
-pubDate: 2026-06-07
+title: Expiro - How I Built an Expiry Tracker for a Minimart
 description: A look at how a real problem in a minimart became a production web app. The story behind Expiro, what it solved, and what building it taught me.
+date: 2026-06-07
 categories:
   - Web Dev
   - PWA
-tags:
-  - expiro
-  - project
-  - supabase
-  - pwa
-  - react
-draft: false
-image: "[[attachments/rock.png]]"
-imageAlt: expiro app dashboard on mobile screen
-imageOG: true
-hideCoverImage: false
-hideTOC: false
-targetKeyword: expiry date tracker app
 repositoryUrl: https://github.com/Sloane-J/expiro
 demoURL: https://expiro.pages.dev/
 status: in-progress
+image: expiro-cover-image.jpg
+imageAlt: expiro app dashboard on mobile screen
+hideCoverImage: true
+hideTOC: false
 noIndex: false
 featured: true
 ---
+
+
+![Expiry homepage showing product listing](expiro-cover-image.jpg)
+*Expiro app homepage showing product listing.*
+
+
+
+---
+
 
 Some projects start with a grand vision. Expiro started with a loss.
 
@@ -36,11 +35,6 @@ Small convenience stores in Ghana manage inventory the way most small businesses
 The consequence is not just waste. In a business running on thin margins with staff earning modest salaries, a monthly deduction for expired stock is genuinely painful. It affects real people.
 
 The solution did not need to be complicated. It needed to exist.
-
----
-
-![The minimart where Expiro was first deployed]([[attachments/minimart-exterior.jpg]])
-*The minimart that Expiro was built for.*
 
 ---
 
@@ -57,8 +51,8 @@ The core loop is simple:
 
 ---
 
-![Expiro product listing page]([[attachments/expiro-product-list.jpg]])
-*The product listing view showing items, categories, and days remaining.*
+![Expiro edit product details page](edit-product-page.png)
+*The product edit page view showing item nae, photo, category, and expiry date.*
 
 ---
 
@@ -70,7 +64,8 @@ It is also a PWA, which means staff can install it on their phones directly from
 
 ---
 
-![Expiro dashboard on mobile]([[attachments/expiro-dashboard-mobile.jpg]])
+![Expiro profile edit page](expiro-profile-edit-page.png)
+![Expiro dashboard on mobile](expiro-dashboard-mobile.png)
 *The dashboard as it appears on a phone. Mobile experience was a priority from the start.*
 
 ---
@@ -87,8 +82,8 @@ The goal was alerts that felt timely, not alerts that got ignored because they c
 
 ---
 
-![Expiro alert or notification view]([[attachments/expiro-alerts.jpg]])
-*Expiry alerts categorised by urgency.*
+![Expiro profile edit page](expiro-profile-edit-page.png)
+*Profile edit page and mobile view of product listing.*
 
 ---
 
@@ -97,13 +92,6 @@ The goal was alerts that felt timely, not alerts that got ignored because they c
 Expiro needed to feel live. When one staff member updates a product status, others should see it without refreshing. Supabase Realtime made this possible, but using it carelessly means a subscription firing on every keystroke or minor change, which adds up fast on a free-tier database.
 
 The approach was to be deliberate about what triggers a real-time update versus what gets batched or polled. Status changes and expiry flags update in real time. Routine edits queue and sync on save. It is not a perfect system but it keeps the database breathing comfortably while the interface still feels responsive.
-
----
-
-![Expiro product detail or edit page]([[attachments/expiro-product-detail.jpg]])
-*The product detail view where staff can update quantities and status.*
-
----
 
 ## What Is Still Missing
 
@@ -117,8 +105,9 @@ And multi-tenant support does not exist yet. Right now Expiro is a single-instan
 
 ---
 
-![Expiro settings or account page]([[attachments/expiro-settings.jpg]])
-*Settings page — currently scoped to a single business.*
+![Product expiry mail reminder](expiry-mail-alert-1.png)
+![Product expiry mail reminder](expiry0mail-alert-2.png)
+*Product expiry mail reminder sent to users email.*
 
 ---
 
@@ -135,4 +124,4 @@ That specificity is what made it useful. And it is the philosophy I carry into e
 ---
 
 > [!note] Try Expiro
-> Expiro is live and currently being used in production. If you run a small retail business and want to explore it, reach out at [samueldorkeyjr@gmail.com](mailto:samueldorkeyjr@gmail.com).
+> Expiro is live and currently being used in production at https://expiro.pages.dev/. You can request access to try it out. If you run a small retail business and want to explore it, reach out at [samueldorkeyjr@gmail.com](mailto:samueldorkeyjr@gmail.com).

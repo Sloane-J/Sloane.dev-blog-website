@@ -572,14 +572,11 @@ textarea {
 /* Image Grid Layouts - Auto-detect paragraphs with multiple images */
 
 /* Auto-detect paragraphs with multiple images using :has() */
-.prose p:has(img + img) {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  margin: 1.5rem 0;
-  max-width: 100%;
+.prose p:has(img + img) img {
   width: 100%;
-  transition: grid-template-columns 0.2s ease-in-out;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
 }
 
 /* Small tablets and up - maintain 2 columns for multi-image paragraphs */
@@ -664,8 +661,9 @@ textarea {
 
 /* Ensure images in grids are properly sized */
 .prose .image-grid img {
-  aspect-ratio: 16/9; /* Maintain consistent aspect ratio */
-  object-fit: cover;
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: transparent;
 }
 
 /* Image gallery items and buttons */
@@ -751,6 +749,10 @@ textarea {
 
 .prose img {
   @apply rounded-lg shadow-sm;
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
 }
 
 .prose mark {
