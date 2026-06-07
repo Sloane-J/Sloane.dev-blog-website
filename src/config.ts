@@ -208,9 +208,9 @@ export const siteConfig: SiteConfig = {
   // [CONFIG:SITE_TITLE]
   title: "Sloane.dev",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "Web dev deep dives, project logs, productivity experiments, and stray thoughts from a developer figuring things out in public. Welcome to my corner of the internet.",
+  description: "Samuel Dorkey Jr is a software developer based in Accra, Ghana. Sloane.dev is where he writes about building for the web.",
   // [CONFIG:SITE_AUTHOR]
-  author: "Sloane.dev",
+  author: "Samuel Dorkey Jr",
   // [CONFIG:SITE_LANGUAGE]
   language: "en",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
@@ -241,7 +241,7 @@ export const siteConfig: SiteConfig = {
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]
-    contentWidth: "60rem",
+    contentWidth: "45rem",
   },
   tableOfContents: {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]

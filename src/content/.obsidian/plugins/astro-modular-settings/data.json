@@ -14,8 +14,8 @@
   "siteInfo": {
     "site": "https://sloane-dev-blog.vercel.app/",
     "title": "Sloane.dev",
-    "description": "Web dev deep dives, project logs, productivity experiments, and stray thoughts from a developer figuring things out in public. Welcome to my corner of the internet.",
-    "author": "Sloane.dev",
+    "description": "Samuel Dorkey Jr is a software developer based in Accra, Ghana. Sloane.dev is where he writes about building for the web.",
+    "author": "Samuel Dorkey Jr",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
@@ -253,10 +253,10 @@
   "availableThemes": "default",
   "customThemes": "",
   "customThemeGenerationEnabled": false,
+  "removeRibbonIcon": false,
   "helpButtonReplacement": {
     "enabled": true,
     "commandId": "astro-modular-settings:open-settings",
     "iconId": "lucide-wrench"
-  },
-  "removeRibbonIcon": false
+  }
 }

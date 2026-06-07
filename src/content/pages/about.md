@@ -23,7 +23,7 @@ Welcome to **Sloane.dev**, the blog of **Samuel Dorkey Jr**, a software develope
 
 I am Samuel Dorkey Jr, a software developer based in Accra, Ghana. I build web applications that solve real problems for real people. Students trying to access academic resources. Small business owners managing inventory. Nonprofits trying to establish a presence online.
 
-Most of what I build starts with something I noticed or experienced directly. I have a strong preference for mobile-first design because most of the people using what I build are on phones, often on inconsistent connections. My stack centres around Next.js, TypeScript, Supabase, and Tailwind CSS.
+Most of what I build starts with something I noticed or experienced directly. I have a strong preference for mobile-first design because most of the people using what I build are on phones, often on inconsistent connections. My stack spans the full product lifecycle. On the frontend I work with React, Astro, TypeScript, and Tailwind CSS. On the backend I reach for Node.js, Laravel, Hono, and Supabase. For mobile I build with Flutter, React Native, Expo, and PWA. I also handle deployment and SEO, including Core Web Vitals, structured data, and production deploys on Vercel and Cloudflare.
 
 I believe in learning in public, which is a large part of why this blog exists. I share what I know, what I am figuring out, and occasionally what I got wrong.
 
@@ -41,6 +41,7 @@ I have made layout modifications and small tweaks to suit my preferences, but th
 
 - [Portfolio](https://samuel-dorkey.vercel.app/) - Send me a message
 - [GitHub](https://github.com/Sloane-J) - Check out my code
+- [Email](mailto:samueldorkeyjr@gmail.com) - samueldorkeyjr@gmail.com
 
 ---
 
