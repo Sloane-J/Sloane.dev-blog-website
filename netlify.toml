@@ -152,7 +152,7 @@
   force = true
 
 [[redirects]]
-  from = "/about-sloane.dev"
+  from = "/about-samuel-dorkey"
   to = "/about"
   status = 301
   force = true

@@ -36,7 +36,7 @@ export default defineConfig({
   },
   redirects: (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'build') ? {
   '/about-me': '/about',
-  '/about-sloane.dev': '/about',
+  '/about-samuel-dorkey': '/about',
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
